@@ -1,0 +1,78 @@
+
+@font-face
+{
+  font-family:bmitra;
+  src: url('../Font/bmitra.eot');
+  src: url('../Font/bmitra.ttf') format("truetype"),
+  url('../Font/bmitra.eot') format('embedded-opentype'),
+  url('../Font/bmitra.woff') format('woff');
+  
+}
+@font-face
+{
+  font-family:dinar;
+  src: url('../Font/dinar.eot');
+  src: url('../Font/dinar.ttf') format("truetype"),
+  url('../Font/dinar.eot') format('embedded-opentype'),
+  url('../Font/dinar.woff') format('woff');
+  
+}
+@font-face
+{
+  font-family:bbc;
+  src: url('../Font/bbc.eot');
+  src: url('../Font/bbc.ttf') format("truetype"),
+  url('../Font/bbc.eot') format('embedded-opentype'),
+  url('../Font/bbc.woff') format('woff');
+  
+}
+p
+{
+	font-family:bmitra;
+}
+.row
+{
+  max-width: 100%;
+
+}
+#main-title
+{
+  font-size: 11em;
+  font-family: dinar;
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 1.1em;
+  color: #704def;
+}
+#main-desc
+{
+  text-align: center;
+  font-family: bbc;
+  color: #000000;
+  font-size: 3.3em;
+}
+#main-pic
+{
+  
+  background:  url('../image/iphone2.png') no-repeat bottom left;
+  background-position: 10% 100%;
+  
+  height: 100%;
+  background-attachment: fixed;
+  background-size: 23%;
+  
+  
+}
+#main-page
+{
+    height: 600px;
+
+  background: #000000 url('../image/back4.png') top left;
+
+  background-attachment: fixed;
+
+}
+#market-plate
+{
+
+}
