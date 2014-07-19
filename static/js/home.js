@@ -8,43 +8,46 @@ function imReady()
 
 	$('#main-text-plate').css({'margin-top':heightOffset.toString()+'px','margin-bottom':heightOffset.toString()+'px'})
 	//$('#main-pic').css({'background-size':($(window).height()*0.4).toString()+'px'})
-	
+	//console.log($('.desc-images').parent().height())
+	$('.desc-images').css({'margin-top':($('.desc-images').parent().height()*0.25).toString()+'px'});
+	$('.desc-text').css({'margin-top':(($('.desc-text').parent().parent().height()-$('.desc-text').height())/2).toString()+'px'});
+
 	$(window).scroll(function()
 	{
-		console.log($(document).scrollTop())
-		if($(document).scrollTop()<$('#category-plate').position().top-200)
+		//console.log($(document).scrollTop())
+		if($(document).scrollTop()<$('#category-plate').position().top-300)
 		{
 
 		}
-		else if($(document).scrollTop()>$('#category-plate').position().top-200 && $('#category-plate').hasClass('in-side'))
+		else if($(document).scrollTop()>$('#category-plate').position().top-300 && $('#category-plate').hasClass('in-side'))
 		{
 			console.log("category")
 			$('#category-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#category-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#category-plate').removeClass('in-side');
 		}
-		else if($(document).scrollTop()>$('#subject-plate').position().top-200 && $('#subject-plate').hasClass('in-side'))
+		else if($(document).scrollTop()>$('#subject-plate').position().top-300 && $('#subject-plate').hasClass('in-side'))
 		{
 			console.log("subject")
 			$('#subject-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#subject-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#subject-plate').removeClass('in-side');
 		}
-		else if($(document).scrollTop()>$('#ai-plate').position().top-200 && $('#ai-plate').hasClass('in-side'))
+		else if($(document).scrollTop()>$('#ai-plate').position().top-300 && $('#ai-plate').hasClass('in-side'))
 		{
 			console.log("ai")
 			$('#ai-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#ai-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#ai-plate').removeClass('in-side');
 		}
-		else if($(document).scrollTop()>$('#lost-plate').position().top-200 && $('#lost-plate').hasClass('in-side'))
+		else if($(document).scrollTop()>$('#lost-plate').position().top-300 && $('#lost-plate').hasClass('in-side'))
 		{
 			console.log("lost")
 			$('#lost-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#lost-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#lost-plate').removeClass('in-side');
 		}
-		else if($(document).scrollTop()>$('#source-plate').position().top-200 && $('#source-plate').hasClass('in-side'))
+		else if($(document).scrollTop()>$('#source-plate').position().top-300 && $('#source-plate').hasClass('in-side'))
 		{
 			console.log("source")
 			$('#source-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});

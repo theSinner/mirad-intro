@@ -68,9 +68,10 @@ p
 {
   height: 600px;
 
-  background: #000000 url('../image/back4.png') top left;
+/*  background: #000000 url('../image/back4.png') top left;
 
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+  background-color: #0E496B;
 
 }
 #market-plate
@@ -95,7 +96,9 @@ p
 }
 .desc-images
 {
-  height:80%;
+
+  border-radius: 30px;
+  height:50%;
 }
 .in-left
 {
