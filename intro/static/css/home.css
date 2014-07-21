@@ -62,7 +62,7 @@ p
   color: #ffffff;
   font-size: 3.3em;
 }
-#main-pic
+.main-pic
 {
   
   background:  url('../image/iphone5.png') no-repeat bottom left;
@@ -84,6 +84,7 @@ p
   background-color: #0E496B;
 
 }
+
 #market-plate
 {
 

@@ -26,7 +26,8 @@ function imReady()
 	$('#goTopP').css({'margin-top':(($('#goTop').height()-$('#goTopP').height())/2).toString()+'px'});
 	$('#goBlog').css({'margin-top':(($('#goBlog').parent().height()-68)/2).toString()+'px'});
 	$('#connections-plate').css({'margin-top':(($('#connections-plate').parent().height()-50-$('#connections-plate').height())/2).toString()+'px'});
-	$('#main-pic').css({'background-size':($('#main-page').height()*0.6).toString()+'px'});
+	$('#main-picLarge').css({'background-size':($('#main-page').height()*0.6).toString()+'px'});
+	$('#main-picMedium').css({'background-size':($('#main-page').height()*0.4).toString()+'px'});
 	$('#goBlog').click(goToBlog);
 	$('#goTop').click(goToTop);
 	$(window).scroll(function()

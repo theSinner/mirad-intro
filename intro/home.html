@@ -15,11 +15,13 @@
 
 	<body id="bdy" >
 		<div class="row" id="main-page">
-			<div  class="columns large-5" style="height:100%;">
-				<div id="main-pic">
+			<div  class="columns large-5 medium-6  hide-for-small-only" style="height:100%;">
+				<div id="main-picLarge" class="main-pic show-for-large-only">
+				</div>
+				<div id="main-picMedium" class="main-pic show-for-medium-only">
 				</div>
 			</div>
-			<div class="columns large-7">
+			<div class="columns large-7 medium-6">
 				<div id="main-text-plate" class="row">
 					<div class="columns small-12">
 						<p id="main-title">
@@ -31,17 +33,17 @@
 					</div>
 				</div>
 				<div id="market-plate" class="row">
-					<div class="columns large-4 large-offset-2" align="right">
+					<div class="columns medium-4 medium-offset-2 small-6" align="right">
 						<img src="static/image/appStore.png">
 					</div>
-					<div class="columns large-4 end">
+					<div class="columns medium-4 small-6 end">
 						<img src="static/image/googlePlay.png">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row plate in-side" id="category-plate" style="background-color:#ffffff;height:400px;padding-top:1em;">
-					<div id="category-text" class="columns small-6 small-offset-3 end" style="margin-top:6em;">
+		<div class="row plate in-side" id="category-plate" style="background-color:#ffffff;padding-top:6em;padding-bottom:6em;">
+					<div id="category-text" class="columns small-8 small-offset-2 end" >
 						<p align="justify" dir="rtl" style="font-size:1.5em;">
 						 میراد، بهترین مطالب و جدیدترین خبرها را بر اساس موضوعات مورد علاقه‌ و عادت های مطالعاتیتان به شما پیشنهاد می دهد. هر قدر که بیشتر بااین نرم افزار کار کنید هوشمندتر می شود.
 						مطالب و خبرهای میراد از حدود یکصد منبع متنوع خبری جمع آوری و در ۵۰ موضوع مختلف دسته بندی شده اند. با میراد شما هیچ مطلب یا خبری را که به آن علاقه دارید از دست نخواهید داد. 
@@ -51,10 +53,10 @@
 			</div>
 		</div>
 		<div class="row plate in-side" id="subject-plate" style="background-color:#f1f1f1;height:600px;">
-			<div id="subject-image" class="columns large-5 in-left" align="right" style="height:100%;">
+			<div id="subject-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="subject-text" class="columns large-7 in-right" style="height:100%;">
+			<div id="subject-text" class="columns medium-7 in-right" style="height:100%;">
 				<div class="row" >
 					<div class="columns small-8 small-offset-2 end desc-text">
 						<p align="right" dir="rtl" style="font-size:4em;margin-bottom:0px;">
@@ -68,10 +70,10 @@
 			</div>
 		</div>
 		<div class="row plate in-side" id="ai-plate" style="background-color:#ffffff;height:600px;">
-			<div id="ai-image" class="columns large-5 in-left" align="right" style="height:100%;">
+			<div id="ai-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="ai-text" class="columns large-7 in-right" style="height:100%;">
+			<div id="ai-text" class="columns medium-7 in-right" style="height:100%;">
 				<div class="row">
 					<div class="columns small-8 small-offset-2 end desc-text">
 						<p align="right" dir="rtl" style="font-size:4em;margin-bottom:0px;">
@@ -85,10 +87,10 @@
 			</div>
 		</div>
 		<div class="row plate in-side" id="lost-plate" style="background-color:#f1f1f1;height:600px;">
-			<div id="lost-image" class="columns large-5 in-left" align="right" style="height:100%;">
+			<div id="lost-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="lost-text" class="columns large-7 in-right" style="height:100%;">
+			<div id="lost-text" class="columns medium-7 in-right" style="height:100%;">
 				<div class="row">
 					<div class="columns small-8 small-offset-2 end desc-text">
 						<p align="right" dir="rtl" style="font-size:2.5em;margin-bottom:0px;margin-top:1em;">
@@ -102,10 +104,10 @@
 			</div>
 		</div>
 		<div class="row plate in-side" id="source-plate" style="background-color:#ffffff;height:600px;">
-			<div id="source-image" class="columns large-5 in-left" align="right" style="height:100%;">
+			<div id="source-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="source-text" class="columns large-7 in-right" style="height:100%;">
+			<div id="source-text" class="columns medium-7 in-right" style="height:100%;">
 				<div class="row">
 					<div class="columns small-8 small-offset-2 end desc-text">
 						<p align="right" dir="rtl" style="font-size:4em;margin-bottom:0px;">
@@ -122,7 +124,7 @@
 		<div class="row" id="blog-page">
 			<div class="columns small-12" style="100%;">
 				<div id="blog-button-plate" class="row">
-					<div class="columns large-4 large-offset-4" align="center" style="height:100%;">
+					<div class="columns large-4 large-offset-4 small-10 small-offset-1 medium-6 medium-offset-3" align="center" style="height:100%;">
 						<button id="goBlog" class="button">
 						ورود به وبلاگ
 						</button>
