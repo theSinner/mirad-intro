@@ -22,9 +22,9 @@
 {
   font-family:dinar;
   src: url('../Font/dinar.eot');
-  src: url('../Font/dinar.ttf') format("truetype"),
-  url('../Font/dinar.eot') format('embedded-opentype'),
-  url('../Font/dinar.woff') format('woff');
+  src: url('../Font/dinar.eot') format('embedded-opentype'),
+  url('../Font/dinar.woff') format('woff'),
+  url('../Font/dinar.ttf') format("truetype");
   
 }
 @font-face
