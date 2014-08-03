@@ -46,35 +46,35 @@ function imReady()
 		}
 		else if($(document).scrollTop()>$('#category-plate').position().top-300 && $('#category-plate').hasClass('in-side'))
 		{
-			console.log("category")
+			//console.log("category")
 			$('#category-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#category-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#category-plate').removeClass('in-side');
 		}
 		else if($(document).scrollTop()>$('#subject-plate').position().top-300 && $('#subject-plate').hasClass('in-side'))
 		{
-			console.log("subject")
+			//console.log("subject")
 			$('#subject-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#subject-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#subject-plate').removeClass('in-side');
 		}
 		else if($(document).scrollTop()>$('#ai-plate').position().top-300 && $('#ai-plate').hasClass('in-side'))
 		{
-			console.log("ai")
+			//console.log("ai")
 			$('#ai-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#ai-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#ai-plate').removeClass('in-side');
 		}
 		else if($(document).scrollTop()>$('#lost-plate').position().top-300 && $('#lost-plate').hasClass('in-side'))
 		{
-			console.log("lost")
+			//console.log("lost")
 			$('#lost-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#lost-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#lost-plate').removeClass('in-side');
 		}
 		else if($(document).scrollTop()>$('#source-plate').position().top-300 && $('#source-plate').hasClass('in-side'))
 		{
-			console.log("source")
+			//console.log("source")
 			$('#source-image').css({'animation':'from-left 0.7s','-webkit-animation':'from-left 0.7s','animation-fill-mode': 'forwards'});
 			$('#source-text').css({'animation':'from-right 0.7s','-webkit-animation':'from-right 0.7s','animation-fill-mode': 'forwards'});
 			$('#source-plate').removeClass('in-side');
