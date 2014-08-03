@@ -4,6 +4,11 @@ function goToBlog()
 	var win = window.open('http://blog.mirad.ir', '_blank');
 	win.focus();
 }
+function goToAppstore()
+{
+	var win = window.open('https://itunes.apple.com/us/app/mirad/id905669570', '_blank');
+	win.focus();
+}
 function goToTop()
 {
 	$("html, body").animate({ scrollTop: 0 }, "slow");
@@ -26,10 +31,12 @@ function imReady()
 	$('#goTopP').css({'margin-top':(($('#goTop').height()-$('#goTopP').height())/2).toString()+'px'});
 	$('#goBlog').css({'margin-top':(($('#goBlog').parent().height()-68)/2).toString()+'px'});
 	$('#connections-plate').css({'margin-top':(($('#connections-plate').parent().height()-50-$('#connections-plate').height())/2).toString()+'px'});
-	$('#main-picLarge').css({'background-size':($('#main-page').height()*0.6).toString()+'px'});
-	$('#main-picMedium').css({'background-size':($('#main-page').height()*0.4).toString()+'px'});
+	$('#main-picLarge').css({'background-size':($('#main-page').height()*0.4).toString()+'px'});
+	$('#main-picMedium').css({'background-size':($('#main-page').height()*0.3).toString()+'px'});
+	$('#main-picMedium').css({'background-position': '3% 100%'});
 	$('#goBlog').click(goToBlog);
 	$('#goTop').click(goToTop);
+	$('#gotAppStore').click(goToAppstore);
 	$(window).scroll(function()
 	{
 		//console.log($(document).scrollTop())
