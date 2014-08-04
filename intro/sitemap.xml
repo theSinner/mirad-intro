@@ -10,6 +10,12 @@
   <loc>http://mirad.ir/</loc>
   <lastmod>2014-08-03T12:06:19+00:00</lastmod>
   <changefreq>yearly</changefreq>
-  <priority>1.00</priority>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://blog.mirad.ir/</loc>
+  <lastmod>2014-08-04T12:06:19+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.4</priority>
 </url>
 </urlset>
