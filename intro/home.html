@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
 		<title>میراد: هوشمند بخوانید</title>
 		
 		<link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
@@ -14,109 +15,170 @@
 
 		<script type='text/javascript' src="static/js/jquery.min.js"></script>
 		<script type='text/javascript' src="static/js/home.js"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+		ga('create', 'UA-52755705-2', 'auto');
+		ga('send', 'pageview');
+
+		</script>
 	</head>
 
 	<body id="bdy" >
 		<div class="row" id="main-page">
-			<div  class="columns large-5 medium-6  hide-for-small-only" style="height:100%;">
-				<div id="main-picLarge" class="main-pic show-for-large-only">
+			<div id="main-page-col"  class="columns large-5 medium-5 ">
+				<div id="main-picLarge" class="main-pic show-for-large-up">
 				</div>
 				<div id="main-picMedium" class="main-pic show-for-medium-only">
 				</div>
 			</div>
-			<div class="columns large-7 medium-6">
+			<div class="columns large-7 medium-7 hide-for-small-only">
 				<div id="main-text-plate" class="row">
 					<div class="columns small-12">
-						<p id="main-title">
+						<h1 id="main-title">
 						میراد
-						</p>
-						<p id="main-desc">
+						</h1>
+						<h2 id="main-desc">
 						هوشمند بخوانید
-						</p>
+						</h2>
 					</div>
 				</div>
 				<div id="market-plate" class="row">
-					<div class="columns medium-4 medium-offset-2 small-6" align="right">
-						<img src="static/image/appStore.png">
+					<div class="columns small-12" align="center">
+						<img id="gotAppStore" src="static/image/appStore.png">
 					</div>
+
 <!-- 					<div class="columns medium-4 small-6 end">
 						<img src="static/image/googlePlay.png">
 					</div> -->
 				</div>
 			</div>
 		</div>
-		<div class="row plate in-side" id="category-plate" style="background-color:#ffffff;padding-top:6em;padding-bottom:6em;">
-					<div id="category-text" class="columns small-10 small-offset-1 medium-8 medium-offset-2 end" >
-						<p align="justify" dir="rtl" style="font-size:1.5em;">
+		<div class="row plate in-side" id="category-plate">
+					<div id="category-text" class="columns small-10 small-offset-1 medium-8 medium-offset-2 end">
+						<p id="category-subtext1" align="justify" dir="rtl">
 						 نرم‌افزار موبایل میراد، بهترین مطالب و جدیدترین خبرها را بر اساس موضوعات مورد علاقه‌ و عادت‌های مطالعاتیتان به شما پیشنهاد می‌دهد. هر قدر که بیشتر با نرم‌افزار میراد کار کنید هوشمندتر می‌شود.
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row plate in-side" id="subject-plate" style="background-color:#f1f1f1;height:600px;">
-			<div id="subject-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
+		<div id="showroom-plate" class="row in-side">
+			<div id="showroom-col" class="columns large-12">
+				<div id="platform-selector-plate" class="row">
+					<div class="columns large-2 large-offset-4 medium-3 medium-offset-3 small-5 small-offset-1" align="center">
+						<p id="ipadSelector" class="platformSelecter activated" >
+						iPad
+						</p>
+					</div>
+					<div class="columns large-2 medium-3 small-5 end" align="center">
+						<p id="iphoneSelector" class="platformSelecter">
+						iPhone
+						</p>
+					</div>
+				</div>
+				<div id="slider-plate" class="row">
+					<div id="slider-col" class="columns large-1 large-offset-2 medium-1 medium-offset-1 small-1">
+						<p id="toSlideLeft" class="slideChanger icon-left-open" style="opacity:0.6;">
+					</div>
+					<div class="columns large-6 medium-8 small-10" align="center" style="height:100%;">
+						<img id="showroomImage" src="static/image/screenshots/ipad1.png">
+					</div>
+					<div class="columns large-1 large-offset-1 medium-1 small-1 end">
+						<p id="toSlideRight" class="slideChanger icon-right-open">
+						</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top:2em;">
+					<div class="columns large-12">
+						<ul id="sliderNavPlate" class="sliderNav">
+							<li class="sliderNav">
+								<p id="nav1" class="sliderBullet icon-circle">
+								
+								</p>
+							</li>
+							<li class="sliderNav">
+								<p id="nav2" class="sliderBullet icon-circle-empty">
+								</p>
+							</li>
+							<li class="sliderNav">
+								<p id="nav3" class="sliderBullet icon-circle-empty">
+								</p>
+							</li>
+							<li class="sliderNav">
+								<p id="nav4" class="sliderBullet icon-circle-empty">
+								</p>
+							</li>
+						</ul>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row plate in-side" id="subject-plate">
+			<div id="subject-image" class="columns medium-5 in-left hide-for-small-only" align="right">
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="subject-text" class="columns medium-7 in-right" style="height:100%;">
+			<div id="subject-text" class="columns medium-7 in-right">
 				<div class="row" >
 					<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 end desc-text">
-						<p align="right" dir="rtl" style="font-size:4em;margin-bottom:0px;">
+						<p class="desc-subtext1" align="right" dir="rtl">
 						هوشمند بخوانید
 						</p>
-						<p align="justify" dir="rtl" style="font-size:1.3em;">
+						<p class="desc-subtext2" align="justify" dir="rtl">
 							میراد سعی می‌کند با توجه به عادت‌های مطالعاتی شما، مطالبی را برایتان جمع‌آوری کند که به آن‌ها بیشتر علاقه دارید. در صورتی که به یک مطلب رای مثبت بدهید، مطالب شبیه آن مطلب را بیشتر خواهید دید.
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row plate in-side" id="ai-plate" style="background-color:#ffffff;height:600px;">
-			<div id="ai-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
+		<div class="row plate in-side" id="ai-plate">
+			<div id="ai-image" class="columns medium-5 in-left hide-for-small-only" align="right">
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="ai-text" class="columns medium-7 in-right" style="height:100%;">
+			<div id="ai-text" class="columns medium-7 in-right">
 				<div class="row">
 					<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 end desc-text">
-						<p align="right" dir="rtl" style="font-size:4em;margin-bottom:0px;">
+						<p align="right" dir="rtl" class="desc-subtext1">
 						موضوعات گوناگون
 						</p>
-						<p align="justify" dir="rtl" style="font-size:1.3em;">
+						<p align="justify" dir="rtl" class="desc-subtext2">
 							مطالب میراد در موضوعات متنوعی دسته‌بندی می‌شوند. در میراد، می‌توانید از مطالب بروز تکنولوژیک و علمی گرفته، تا اخبار جدید سیاسی، ورزشی، فرهنگی، اقتصادی و حتی مطالب سبک‌زندگی، سلامت، روانشناسی، گردشگری و چند‌ده موضوع متنوع دیگر را پیدا کنید. همچنین می‌توانید موضوعات مورد علاقه خودتان را انتخاب کنید تا خبرهای آن دسته را از دست ندهید.
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row plate in-side" id="lost-plate" style="background-color:#f1f1f1;height:600px;">
-			<div id="lost-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
+		<div class="row plate in-side" id="lost-plate">
+			<div id="lost-image" class="columns medium-5 in-left hide-for-small-only" align="right" >
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="lost-text" class="columns medium-7 in-right" style="height:100%;">
+			<div id="lost-text" class="columns medium-7 in-right">
 				<div class="row">
 					<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 end desc-text">
-						<p align="right" dir="rtl" style="font-size:4em;margin-bottom:0px;margin-top:1em;">
+						<p align="right" dir="rtl" class="desc-subtext1">
 						منابع متنوع
 						</p>
-						<p align="justify" dir="rtl" style="font-size:1.3em;">
+						<p align="justify" dir="rtl" class="desc-subtext2">
 							مطالب میراد از منابع گوناگونی مثل همشهری آنلاین، اقتصاد آنلاین، ورزش سه، زومیت، تابناک، میگنا، توریست‌ها، تنسیم، تیوال و ده‌ها منبع دیگر جمع‌آوری می‌شوند. میراد مطالب تکراری سایت‌های مختلف را حذف می‌کند و آن‌ها را تنها یک‌بار به شما نشان می‌‌دهد.
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row plate in-side" id="source-plate" style="background-color:#ffffff;height:600px;">
-			<div id="source-image" class="columns medium-5 in-left hide-for-small-only" align="right" style="height:100%;">
+		<div class="row plate in-side" id="source-plate">
+			<div id="source-image" class="columns medium-5 in-left hide-for-small-only" align="right" >
 				<img src="static/image/category.jpg" class="desc-images">
 			</div>
-			<div id="source-text" class="columns medium-7 in-right" style="height:100%;">
+			<div id="source-text" class="columns medium-7 in-right">
 				<div class="row">
 					<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 end desc-text">
-						<p align="right" dir="rtl" style="font-size:2.5em;margin-bottom:0px;">
+						<p id="source-subtext1" align="right" dir="rtl">
 							هیچ خبر مهمی را از دست ندهید
 						</p>
-						<p align="justify" dir="rtl" style="font-size:1.3em;">
+						<p align="justify" dir="rtl" class="desc-subtext2">
 							مهم‌ترین، داغ‌ترین و جدیدترین خبرهای موضوعاتی که شما به آن‌ها علاقه دارید در تلفن همراه شما گوشزد(نوتیف) می‌شوند.
  						</p>
 					</div>
@@ -124,16 +186,16 @@
 			</div>
 		</div>
 		<div class="row" id="blog-page">
-			<div class="columns small-12" style="100%;">
+			<div id="blog-page-col" class="columns small-12">
 				<div id="blog-button-plate" class="row">
-					<div class="columns large-4 large-offset-4 small-10 small-offset-1 medium-6 medium-offset-3" align="center" style="height:100%;">
+					<div id="blog-button-plate-col" class="columns large-4 large-offset-4 small-10 small-offset-1 medium-6 medium-offset-3" align="center">
 						<button id="goBlog" class="button">
 						ورود به وبلاگ
 						</button>
 					</div>
 				</div>
-				<div id="contact-plate" class="row" style="">
-					<div class="columns small-12" style="height:100%;background-color:#0E496B;">
+				<div id="contact-plate" class="row" >
+					<div id="contact-plate-col" class="columns small-12">
 						<div class="row">
 							<div class="columns large-4 large-offset-4 end"  align="center">
 								<div id="goTop" align="center">
