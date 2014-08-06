@@ -40,7 +40,7 @@ function selectIpad()
 	$('#sliderNavPlate').css({'animation':'hider 0.3s','-webkit-animation':'hider 0.3s','animation-fill-mode': 'forwards'});
 	setTimeout(function(){
 		currentNavID=1;
-		document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.png';
+		document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.jpg';
 		$('#showroomImage').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 		$('#sliderNavPlate').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 	},300);
@@ -67,7 +67,7 @@ function selectIphone()
 	$('#sliderNavPlate').css({'animation':'hider 0.3s','-webkit-animation':'hider 0.3s','animation-fill-mode': 'forwards'});
 	setTimeout(function(){
 		currentNavID=1;
-		document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.png';
+		document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.jpg';
 		$('#showroomImage').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 		$('#sliderNavPlate').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 	},300);
@@ -94,7 +94,7 @@ function changeSlideLeft()
 			$('#nav'+(currentNavID).toString()).removeClass('icon-circle-empty');
 		$('#showroomImage').css({'animation':'hider 0.3s','-webkit-animation':'hider 0.3s','animation-fill-mode': 'forwards'});
 		setTimeout(function(){
-			document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.png'
+			document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.jpg'
 			$('#showroomImage').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 		},300);
 	}
@@ -120,7 +120,7 @@ function changeSlideRight()
 			$('#nav'+(currentNavID).toString()).removeClass('icon-circle-empty');
 		$('#showroomImage').css({'animation':'hider 0.3s','-webkit-animation':'hider 0.3s','animation-fill-mode': 'forwards'});
 		setTimeout(function(){
-			document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.png'
+			document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.jpg'
 			$('#showroomImage').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 		},300)
 	}	
@@ -161,7 +161,7 @@ function sliderNavigation()
 			$(this).removeClass('icon-circle-empty');
 		$('#showroomImage').css({'animation':'hider 0.3s','-webkit-animation':'hider 0.3s','animation-fill-mode': 'forwards'});
 		setTimeout(function(){
-			document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.png'
+			document.getElementById('showroomImage').src='static/image/screenshots/'+selectedPlatform+currentNavID.toString()+'.jpg'
 			$('#showroomImage').css({'animation':'shower 0.3s','-webkit-animation':'shower 0.3s','animation-fill-mode': 'forwards'});
 		},300)
 	}
