@@ -8,14 +8,20 @@
 
 <url>
   <loc>http://mirad.ir/</loc>
-  <lastmod>2014-08-03T12:06:19+00:00</lastmod>
+  <lastmod>2014-08-05T12:06:19+00:00</lastmod>
   <changefreq>yearly</changefreq>
-  <priority>0.6</priority>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>http://mirad.ir/about</loc>
+  <lastmod>2014-08-05T12:06:19+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.15</priority>
 </url>
 <url>
   <loc>http://blog.mirad.ir/</loc>
   <lastmod>2014-08-04T12:06:19+00:00</lastmod>
   <changefreq>always</changefreq>
-  <priority>0.4</priority>
+  <priority>0.3</priority>
 </url>
 </urlset>
