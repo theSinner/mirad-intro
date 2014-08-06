@@ -411,3 +411,22 @@ ul li.sliderNav {display: table-cell;}
   from {opacity:0;}
   to   {opacity:1;}
 }
+#goAbout
+{
+  color:#ffffff;
+  font-family: bmitra;
+  font-weight: normal;
+  font-size: 2em;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#goAbout:hover,#goAbout:active,#goAbout:focus
+{
+  color:#0E496B;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}

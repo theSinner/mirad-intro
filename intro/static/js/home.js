@@ -182,10 +182,11 @@ function imReady()
 	$('#main-text-plate').css({'margin-top':heightOffset.toString()+'px','margin-bottom':heightOffset.toString()+'px'})
 	//$('#main-pic').css({'background-size':($(window).height()*0.4).toString()+'px'})
 	//console.log($('.desc-images').parent().height())
+	console.log($('#goAbout').height())
 	$('.desc-images').css({'margin-top':($('.desc-images').parent().height()*0.25).toString()+'px'});
 	$('.desc-text').css({'margin-top':(($('.desc-text').parent().parent().height()-$('.desc-text').height())/2).toString()+'px'});
 	$('#goTopP').css({'margin-top':(($('#goTop').height()-$('#goTopP').height())/2).toString()+'px'});
-	$('#goBlog').css({'margin-top':(($('#goBlog').parent().height()-68)/2).toString()+'px'});
+	$('#goAbout').css({'margin-top':(($('#goBlog').parent().height()-68-$('#goAbout').outerHeight())/2).toString()+'px'});
 	$('#connections-plate').css({'margin-top':(($('#connections-plate').parent().height()-50-$('#connections-plate').height())/2).toString()+'px'});
 	$('#main-picLarge').css({'background-size':($('#main-page').height()*0.4).toString()+'px'});
 	$('#main-picMedium').css({'background-size':($('#main-page').height()*0.3).toString()+'px'});
