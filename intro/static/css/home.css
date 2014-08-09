@@ -265,6 +265,22 @@ p
   -o-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
+#goBlog a
+{
+  color:#0E496B;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#goBlog:hover a
+{
+  color:#ffffff;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
 #goBlog:hover
 {
   color:#ffffff;

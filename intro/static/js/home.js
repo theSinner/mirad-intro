@@ -191,7 +191,7 @@ function imReady()
 	$('#main-picLarge').css({'background-size':($('#main-page').height()*0.4).toString()+'px'});
 	$('#main-picMedium').css({'background-size':($('#main-page').height()*0.3).toString()+'px'});
 	$('#main-picMedium').css({'background-position': '3% 100%'});
-	$('#goBlog').click(goToBlog);
+	//$('#goBlog').click(goToBlog);
 	$('#goTop').click(goToTop);
 	//$('#gotAppStore').click(goToAppstore);
 	$('#ipadSelector').click(selectIpad);
