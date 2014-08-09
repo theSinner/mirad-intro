@@ -430,3 +430,7 @@ ul li.sliderNav {display: table-cell;}
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
+#showroom-plate
+{
+  overflow-y:hidden;
+}

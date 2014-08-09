@@ -193,7 +193,7 @@ function imReady()
 	$('#main-picMedium').css({'background-position': '3% 100%'});
 	$('#goBlog').click(goToBlog);
 	$('#goTop').click(goToTop);
-	$('#gotAppStore').click(goToAppstore);
+	//$('#gotAppStore').click(goToAppstore);
 	$('#ipadSelector').click(selectIpad);
 	$('#iphoneSelector').click(selectIphone);
 	$('#toSlideLeft').click(changeSlideLeft);
