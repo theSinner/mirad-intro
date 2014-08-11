@@ -424,6 +424,8 @@ ul li {display: table-cell;}
 #contact-plate-col
 {
   height:100%;
+  padding-left: 0px;
+  padding-right: 0px;
   background-color:#0E496B;
 }
 #blog-page-col,#blog-button-plate-col,#main-page-col,#showroom-col,#slider-col
@@ -513,24 +515,46 @@ ul li.sliderNav {display: table-cell;}
   from {opacity:0;}
   to   {opacity:1;}
 }
+
 #goAbout
 {
-  color:#ffffff;
-  font-family: bmitra;
+  bottom:0px;
+  width: 100%;
+  color:#0E496B;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  font-family:bbc;
   font-weight: normal;
-  font-size: 2em;
-  -webkit-transition: color 0.3s ease;
-  -moz-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  font-size: 1.5em;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
-#goAbout:hover,#goAbout:active,#goAbout:focus
+#goAbout a
 {
   color:#0E496B;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
+}
+#goAbout:hover a
+{
+  color:#ffffff;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#goAbout:hover
+{
+  color:#ffffff;
+  background-color: #0E496B;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 #showroom-plate
 {
