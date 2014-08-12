@@ -405,7 +405,8 @@ ul li {display: table-cell;}
 }
 .desc-subtext1
 {
-  font-size:4em;
+  font-size:3em;
+  font-family: dinar;
   margin-bottom:0px;
 }
 .desc-subtext2
@@ -414,7 +415,8 @@ ul li {display: table-cell;}
 }
 #source-subtext1
 {
-  font-size:2.5em;
+  font-size:2.1em;
+  font-family: dinar;
   margin-bottom:0px;
 }
 #category-subtext1
@@ -585,4 +587,8 @@ ul li.sliderNav {display: table-cell;}
   height: 100%;
   display: none;
   opacity: 0;
+}
+#sponser
+{
+  padding-bottom: 10px;
 }
