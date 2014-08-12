@@ -237,7 +237,9 @@ function imReady()
 	$('#main-page').css({'height':$(window).height().toString()+'px'})
 	$('#blog-page').css({'height':$(window).height().toString()+'px'})
 	$('#showroom-plate').css({'height':$(window).height().toString()+'px'})
-	$('#contact-plate').css({'height':($('#blog-page').height()*0.4).toString()+'px'});
+	console.log($('#contact-plate').height())
+	if($('#contact-plate').height()<$('#blog-page').height()*0.4)
+		$('#contact-plate').css({'height':($('#blog-page').height()*0.4).toString()+'px'});	
 	$('#blog-button-plate').css({'height':($('#blog-page').height()*0.6).toString()+'px'});
 	$('#slider-plate').css({'height':(($(window).height()-$('#platform-selector-plate').outerHeight())*0.85).toString()+'px'})
 	$('.slideChanger').css({'line-height':(($(window).height()-$('#platform-selector-plate').outerHeight())*0.85).toString()+'px'})
