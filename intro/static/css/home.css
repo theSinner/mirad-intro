@@ -399,7 +399,7 @@ ul li {display: table-cell;}
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-#gotAppStore
+.stores
 {
   cursor: pointer;
 }
